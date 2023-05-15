@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ExportToCsv } from 'export-to-csv';
-import './Todo.css';
+import './data.css';
 
-export default function Todo() {
+export default function Data() {
   const [tasks, setTasks] = useState([]);
   const [text, setText] = useState('');
   const [priority, setPriority] = useState('low');
